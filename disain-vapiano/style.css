@@ -411,3 +411,60 @@ body {
     display: block;
   }
 }/*# sourceMappingURL=style.css.map */
+
+.carousel-item-active {
+  height: 620px;
+}
+
+.carousel-item {
+  height: 620px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.br {
+  display: block;
+  margin-bottom: -.6em;
+}
+
+.car-cap {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color:#fff;
+  font-weight: bold;
+  animation: fadeIn 1s ease-in both;
+}
+
+.car-cap-black {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color:#222221;
+  font-weight: bold;
+  animation: fadeIn 1s ease-in both;
+}
+
+.carousel-control-prev {
+  top: 40%;
+  bottom: 40%;
+}
+
+.carousel-control-next{
+  top: 40%;
+  bottom: 40%;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 60%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
