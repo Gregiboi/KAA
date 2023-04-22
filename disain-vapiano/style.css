@@ -154,3 +154,20 @@ body {
     display: block;
   }
 }/*# sourceMappingURL=style.css.map */
+
+.carousel-item-active {
+  height: 964.8px;
+  width: 720px;
+}
+
+.carousel-item {
+  height: 964.8px;
+  width: 720px;
+}
+
+.c-img {
+  height: 700px;
+  width: 720px;
+  object-fit: cover;
+  overflow: hidden;
+}
