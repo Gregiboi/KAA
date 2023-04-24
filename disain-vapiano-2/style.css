@@ -1,6 +1,6 @@
 @font-face {
   font-family: "mainFont";
-  src: url("main-font2.ttf");
+  src: url("main-font3.ttf");
 }
 @font-face {
   font-family: "signature";
@@ -15,6 +15,10 @@
 body {
   font-family: sans-serif;
   overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, a, p {
+  margin-bottom: 0 !important;
 }
 
 .top-nav {
@@ -84,10 +88,11 @@ body {
 }
 .menu > li a {
   font-family: mainFont;
+  text-transform: uppercase;
   text-decoration: none;
   color: #3B3830;
   transition: 300ms;
-  font-size: 22px;
+  font-size: 25px;
 }
 .menu > li a:hover {
   color: #D2002D;
@@ -289,7 +294,7 @@ body {
 }
 .menue .menu-top h1 {
   width: 300px;
-  font-size: 60px;
+  font-size: 63px;
   margin: 0 10vw;
   font-family: signature;
   line-height: 40px;
@@ -419,7 +424,8 @@ body {
 .eripakkumised .eri-top h1 {
   font-family: mainFont;
   text-transform: uppercase;
-  font-size: 38px;
+  font-size: 48px;
+  margin-bottom: 0 !important;
 }
 .eripakkumised .eri-bot {
   display: flex;
@@ -638,7 +644,7 @@ body {
 .footer .footer-top .footer-top-item h5 {
   text-align: center;
   font-family: mainFont;
-  font-size: 18px;
+  font-size: 28px;
   color: #3B3830;
   line-height: 28px;
 }

@@ -10,7 +10,7 @@ $top-nav: #222221;
 
 @font-face {
     font-family: "mainFont";
-    src: url("main-font2.ttf");	
+    src: url("main-font3.ttf");	
 }
 
 @font-face {
@@ -29,7 +29,9 @@ body {
 	font-family: sans-serif;
 	overflow-x: hidden;
 }
-
+h1, h2, h3, h4, h5, a, p {
+	margin-bottom: 0 !important;
+}
 .top-nav {
 	background: $top-nav;
 	color: #fff;
@@ -101,10 +103,11 @@ body {
 		overflow: hidden;
 	a {
 		font-family: mainFont;
+		text-transform: uppercase;
 		text-decoration: none;
 		color: $primary;
 		transition: 300ms;
-		font-size: 22px;
+		font-size: 25px;
 		&:hover {
 			color: $accent;
 		}
@@ -313,7 +316,7 @@ body {
 		}
 		h1 {
 			width: 300px;
-			font-size: 60px;
+			font-size: 63px;
 			margin: 0 10vw;
 			font-family: signature;
 			line-height: 40px;
@@ -447,7 +450,8 @@ body {
 		h1 {
 			font-family: mainFont;
 			text-transform: uppercase;
-			font-size: 38px;
+			font-size: 48px;
+			margin-bottom: 0 !important;
 		}
 	}
 	.eri-bot {
@@ -666,7 +670,7 @@ body {
 			h5 {
 				text-align: center;
 				font-family: mainFont;
-				font-size: 18px;
+				font-size: 28px;
 				color: $primary;
 				line-height: 28px;
 			}
