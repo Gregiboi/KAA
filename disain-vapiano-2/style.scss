@@ -783,12 +783,15 @@ $orange: hsl(50,80%,50%);
 	padding: 0 2em;
 	h3 {
 		font-family: mainFont;
+		margin-bottom: 1vw;
+		color: $primary;
 	}
 	p {
-
+		color: rgb(77, 77, 77);
 	}
 	
 	.button {
+		margin-top: 5px;
 	  	background: $accent;
 		transition: 500ms;
 		&:hover {

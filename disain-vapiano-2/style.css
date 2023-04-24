@@ -747,8 +747,14 @@ body {
 }
 .back h3 {
   font-family: mainFont;
+  margin-bottom: 1vw;
+  color: #3B3830;
+}
+.back p {
+  color: rgb(77, 77, 77);
 }
 .back .button {
+  margin-top: 5px;
   background: #D2002D;
   transition: 500ms;
 }
