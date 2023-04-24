@@ -300,6 +300,13 @@ h1, h2, h3, h4, h5, a, p {
   line-height: 40px;
   font-weight: 100;
 }
+
+@media (max-width: 768px) {
+  .menue .menu-top h1 {
+    width: 200px;
+  }
+}
+
 .menue .menu-mid {
   display: flex;
   flex-direction: column;
@@ -353,6 +360,12 @@ h1, h2, h3, h4, h5, a, p {
   margin: 0 40px;
   height: 100px;
 }
+
+@media (max-width: 768px) {
+  .menue .menu-mid .menu-bot-top img {
+    margin: 0 24px;
+  }
+} 
 .menue .menu-mid .menu-bot-bot {
   display: flex;
   justify-content: space-around;
@@ -362,6 +375,13 @@ h1, h2, h3, h4, h5, a, p {
   margin: 0 60px;
   height: 50px;
 }
+
+@media (max-width: 768px) {
+  .menue .menu-mid .menu-bot-bot img {
+    margin: 24px;
+  }
+}
+
 .menue .menu-bot {
   display: flex;
   flex-direction: column;
@@ -915,19 +935,17 @@ h1, h2, h3, h4, h5, a, p {
 }
 
 .carousel-item-active {
-  height: 720px;
   width: 100%;
 }
 
 .carousel-item {
-  height: 720px;
   width: 100%;
 }
 
 .c-img {
-  height: 100%;
+  max-height: 90vh;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .br {
@@ -953,6 +971,17 @@ h1, h2, h3, h4, h5, a, p {
   animation: fadeIn 1s ease-in both;
 }
 
+@media (max-width: 768px) {
+  .car-cap, .car-cap-black {
+    bottom: 8px;
+    left: 8px;
+  }
+  .car-cap h1, .car-cap-black h1 {
+    line-height: 1;
+    font-size: 26px;
+  }
+}
+
 .carousel-control-prev {
   top: 40%;
   bottom: 40%;
@@ -961,6 +990,16 @@ h1, h2, h3, h4, h5, a, p {
 .carousel-control-next {
   top: 40%;
   bottom: 40%;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  right: 20px;
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+  left: 20px;
 }
 
 @keyframes fadeIn {
