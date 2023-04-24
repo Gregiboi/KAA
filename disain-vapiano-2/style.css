@@ -966,4 +966,9 @@ body {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
+}
+.carousel h1 {
+  font-weight: bold;
+  font-family: mainFont;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=style.css.map */
